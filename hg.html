@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hg</title>
+	<link  href="stylehg.css" rel="stylesheet" type="text/css">
+	  <link href="https://fonts.googleapis.com/css?family=Odibee+Sans|Open+Sans+Condensed:300|Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body onload="myFunction()" id="body">
+<div id="myDiv" class="animate-bottom">
+<img id="img" src="bg.webp">
+<div class="box">
+	<span id="span"><pre>THIS IS<br><b>GAUTAM,</b><br><br>A <u>DEVELOPER</u> AND<br>A <u>CODER </u><></><></pre></span>
+	<span class="links">
+	<a href="#">Home</a>
+	<a href="#">My Projects</a>
+	<a href="#" class="special-link">Contact-me</a>
+    </span>
+</div>
+<center>
+<iframe src="data.html" id="frame1"></iframe>
+<h3 id="skills">Skill-Sets</h3>
+<iframe src="skillset.html" id="frame2"></iframe>
+<div class="images">
+	<a href="https://www.instagram.com/gau_tam_b/"><img src="instagram.png"></a>
+	<a href="https://www.facebook.com/gautam.behal.5"><img src="facebook.png"></a>
+	<a href="https://www.linkedin.com/in/gautam-behl-88ab971a2/"><img src="linkedin.png"></a>
+	<a href="https://twitter.com/Gautambehal1"><img src="twitter.png"></a>
+</div>
+</center>
+</div>
+<div id="box1">
+	<div class="box-inner"></div>
+</div>
+<script>
+	var myVar;
+	function myFunction()
+	{
+		myVar=setTimeout(showpage,1000);
+	}
+	function showpage()
+	{
+		document.getElementById("myDiv").style.display="block";
+		document.getElementById("box1").style.display="none";
+		// document.getElementById("body").style.background-color="white";
+	}
+</script>
+</body>
+</html>

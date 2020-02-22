@@ -1,0 +1,41 @@
+body
+{
+    background-image: url(back.jpeg);
+    height: 100%;
+    width: 100%;
+    position: center;
+}
+.card-text
+{
+   
+    margin-left: 25%;
+    transform: translateX(-20%);
+    
+}
+#card1
+{
+    width: 70%;
+ 
+
+}
+.row
+{
+    margin: 30px;
+    
+}
+#bs
+{
+    background-image: url('bs.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card
+{
+    width: 20vh;
+    height: 50vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    font-family: 'Open Sans', sans-serif;
+}
